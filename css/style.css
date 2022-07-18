@@ -135,11 +135,11 @@
     font-weight: 500;
     font-size: 1.5vw;
     transition: 2s;
-    animation: comngs 20s infinite;
+    animation: comngs 5s infinite;
     content: 'Co';
 }
 @keyframes comngs{
-    0% {content: 'C';}
+    /* 0% {content: 'C';}
     8% {content: 'Co';}
     16% {content: 'Com';}
     24% {content: 'Comm';}
@@ -151,20 +151,10 @@
     72% {content: 'Comming Soon';}
     80% {content: 'Comming Soon.';}
     88% {content: 'Comming Soon..';}
-    96% {content: 'Comming Soon...';}
-    /* 0% {background-color: white;}
-    8% {background-color: blue;}
-    16% {background-color: red;}
-    24% {background-color: green;}
-    32% {background-color: yellow;}
-    40% {background-color: pink;}
-    48% {background-color: black;}
-    56% {background-color: silver;}
-    64% {background-color: purple;}
-    72% {background-color: blue;}
-    80% {background-color: blue;}
-    88% {background-color: blue;}
-    96% {background-color: blue;} */
+    96% {content: 'Comming Soon...';} */
+    0% {color: white;}
+    50% {color: black;}
+    100% {color: white;} 
 }
 .registerDiv{
     height: 82vh;
